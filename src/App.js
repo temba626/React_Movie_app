@@ -21,6 +21,9 @@ import Movie from "./components/Movie";
 
     return (
         <div className="movie-container">
+          <header>
+            <input className="search" type="text" placeholder="Search your movie here..." />
+          </header>
             {movies.length > 0 &&
                 movies.map((movie) => <Movie key={movie.
                 id} {...movie} />)}

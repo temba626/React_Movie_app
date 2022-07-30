@@ -7,8 +7,15 @@
 body {
   background-color: #fcde67;
   color: white;
+  display: flex;
+  flex-direction: column;
   font-family: "Poppins", sans-serif;
   margin: 0;
+}
+
+header {
+  background-color: #fcde67;
+  padding: 1rem;
 }
 
 .movie-container {
