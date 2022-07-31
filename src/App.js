@@ -42,7 +42,8 @@ import Movie from "./components/Movie";
 
     return (
       <>
-        <header>
+        < div className="header">
+          <h1>Movie app</h1>
           <form onSubmit={handleOnSubmit}>
           <input className="search" type="search"
           placeholder="Search your movie here..." 
@@ -51,7 +52,7 @@ import Movie from "./components/Movie";
 
           </form>
           
-        </header>
+        </div>
 
           <div className="movie-container">
             {movies.length > 0 &&
